@@ -17,6 +17,8 @@ export default function App() {
 
   if(user === undefined) return null;
 
+  console.log(user.uid);
+
   return (
     <>
     <StatusBar barStyle = "light-content"/>
